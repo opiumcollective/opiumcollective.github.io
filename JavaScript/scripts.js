@@ -9,7 +9,7 @@ renderer.setSize(W, H);
 
 var camera = new THREE.PerspectiveCamera(100, W / H, 0.1, 10000);
 
-var planeGeometry = new THREE.PlaneGeometry(window.innerWidth, window.innerHeight, 800, 100);
+var planeGeometry = new THREE.PlaneGeometry(window.innerWidth, window.innerHeight, window.innerWidth/2, 100);
 var planeMaterial = new THREE.MeshBasicMaterial({color: 0x000000, wireframe: true});
 var plane = new THREE.Mesh(planeGeometry, planeMaterial);
 
