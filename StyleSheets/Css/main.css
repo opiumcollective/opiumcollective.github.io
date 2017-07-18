@@ -9,7 +9,7 @@ a, p {
 .navBar {
 	position: absolute;
 	top: -.17em;
-	font-family: 'Helvetica' , sans-serif;
+	font-family: 'Helvetica', 'Arial' , sans-serif;
 	font-size: 20vw;
 	font-weight: 800;
 }
@@ -25,7 +25,7 @@ a, p {
 .leftSideContainer {
 	position: fixed;
 	left: 0em;
-	font-family: 'Helvetica', sans-serif;
+	font-family: 'Helvetica', 'Arial', sans-serif;
 	font-size: 3em;
 	font-weight: 400;
 	text-transform: uppercase;
@@ -39,7 +39,7 @@ a, p {
 .rightSideContainer {
 	position: fixed;
 	right:0em;
-	font-family: 'Helvetica', sans-serif;
+	font-family: 'Helvetica', 'Arial', sans-serif;
 	font-size: 3em;
 	font-weight: 400;
 	text-transform: uppercase;
@@ -52,8 +52,8 @@ a, p {
 
 .textContent {
     position: relative;
-    margin-top: 30vw;
-    font-size: 5vw;
+    margin-top: 25vw;
+    font-size: 4em;
     text-align: justify;
 }
 
@@ -70,7 +70,7 @@ a, p {
     position: relative;
     width: 10vw;
     height: 10vw;
-    font-size: 5vw;
+    font-size: 4em;
     transition: .2s;
     background: #ff2;
     border-radius: 50%;
@@ -100,6 +100,12 @@ a, p {
     color: #33f;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 900px) {
+    .textContent {
+        font-size: 2em;
+    }
     
+    .bio {
+        font-size: 2em;
+    }
 }
